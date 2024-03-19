@@ -12,6 +12,7 @@
     margin-left: 15px;
 }
 .screen-header__icons {
+    position: relative;
     margin-right: 5px;
 }
 

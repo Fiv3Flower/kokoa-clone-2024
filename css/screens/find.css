@@ -1,21 +1,123 @@
-.find-screen__text-border {
-    border: 1.5px solid rgba(0, 0, 0);
-    border-radius: 50%;
-}
-.find-screen {
-    margin: 0px 10px;
-}
-.find-screen__header {
+.find-icons {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    border-bottom: var(--main-border);
+    padding-bottom: 25px;
 }
-.find-screen__content {
+.find-icons__icon {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.find-screen__text {
+
+.find-icons__icon i {
+    font-size: 30px;
+}
+.find-icons__icon span {
+    margin-top: 18px;
+}
+.gear__circle {
+    position: absolute;
+    display: flex;
+    width: 4px;
+    height: 4px;
+    background-color: tomato;
+    border-radius: 50%;
+    left: 78px;
+    bottom: 17px;
+}
+.recommended-friends {
+    padding: 15px 0px;
+    border-bottom: var(--main-border);
+}
+.recommended-friends__title {
+    font-size: 16px;
+    color: var(--font-color);
+}
+.recommended-friends span {
+    display: block;
+    margin: 100px 0px;
+    text-align: center;
+    font-size: 18px;
+    color: var(--font-color);
+}
+.open-chat__header {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.8;
     margin-top: 10px;
 }
-
+.open-chat__header span {
+    opacity: 0.6;
+}
+.open-post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.open-post__title {
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+.open-post__hashtags {
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+.open-post__members {
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+}
+.open-post__members img {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.open-chat__members-count {
+    opacity: 0.5;
+    font-size: 14px;
+}
+.open-post__members .divider {
+    width: 1.3px;
+    height: 15px;
+    background-color: var(--font-color);
+    margin: 0px 5px;
+}
+.open-post__member-status {
+    color: #ffb0e0;
+}
+.open-post__photo {
+    position: relative;
+}
+.open-post__photo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+.open-post__heart-count {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 8px;
+    left: 60px;
+}
+.open-post__heart-count span {
+    margin-left: 5px;
+}
+.text-lowercase {
+    text-transform: lowercase;
+}
+.open-post__second {
+    margin-top: 0px;
+    padding-top: 10px;
+    border-top: var(--main-border);
+}
+.margin-bottom {
+    margin-bottom: 10px;
+}
