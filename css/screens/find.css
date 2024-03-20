@@ -3,6 +3,7 @@
     justify-content: space-between;
     border-bottom: var(--main-border);
     padding-bottom: 25px;
+    position: relative;
 }
 .find-icons__icon {
     display: flex;
@@ -25,6 +26,9 @@
     border-radius: 50%;
     left: 78px;
     bottom: 17px;
+}
+.move {
+    left: 120px;
 }
 .recommended-friends {
     padding: 15px 0px;

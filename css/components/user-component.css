@@ -54,3 +54,15 @@
     margin-bottom: 10px;
     display: block;
 }
+.color__black {
+    color: black;
+}
+.user-component__subtitle-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
+    position: relative;
+}
+.user-component__subtitle-box i {
+    color: tomato;
+}
