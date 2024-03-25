@@ -8,11 +8,14 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/badge.css";
+@import "components/alt-screen-header.css";
 
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/find.css";
+@import "screens/settings.css";
+@import "screens/chat-screen.css";
 
 /* Components */
 @import "components/icon-raw.css";
@@ -32,7 +35,7 @@ body {
     width: 10px;
     height: 10px;
     position: absolute;
-    left: 112px;
+    left: 120px;
     top: 14.7px;
 }
 .no-border {
