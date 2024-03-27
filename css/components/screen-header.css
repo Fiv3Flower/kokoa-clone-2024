@@ -16,3 +16,14 @@
     margin-right: 5px;
 }
 
+@keyframes rotategear {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+.screen-header__icons .fa-gear:hover {
+    animation: rotategear 3s linear infinite;
+}
